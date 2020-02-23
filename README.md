@@ -27,15 +27,14 @@ Options can be passed as a second parameter to choose from `regular` (default), 
 ytbThumbnail('https://www.youtube.com/watch?v=dQw4w9WgXcQ', 'hq');
 // https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg
 
-
 ytbThumbnail('http://youtu.be/dQw4w9WgXcQ', 'sd');
 // https://img.youtube.com/vi/dQw4w9WgXcQ/sddefault.jpg
 
 ytbThumbnail('http://www.youtube.com/embed/dQw4w9WgXcQ?rel=0', 'maxres');
 // https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg
 
-// `all` will return an object with all the above and a property `slide` containing the four automatically generated thumbnail for every video
 
+// `all` will return an object with all the above and a property `slide` containing the four automatically generated thumbnail for every video
 ytbThumbnail(
   "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   "all"
